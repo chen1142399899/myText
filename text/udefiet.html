@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/udefiet.css" type="text/css" >
+    <script type="text/javascript" src="JS/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="JS/UDEFIET.js"></script>
+    <title>LOL首页</title>
+    <script style="text/javascript">
+        /*显示隐藏标签*/
+        $(function () {
+            $('#topMeuLink,#topBooTTom').mouseover(function(){
+                $('#topBooTTom').show();
+            }).mouseout(function () {
+                $('#topBooTTom').hide();
+            });
+        });
+    </script>
+</head>
+<body style="zoom:1;padding-top: 42px;" id="cb">
+    <div class="wrapss">
+        <!-- 头部区域 -->
+        <div class="top tongyongtop">
+            <div class="top-logo"><a href="#" class="top-logo"></a></div>
+            <div class="top-loin"><a href="#" class="top-loina"></a></div>
+            <div class="top-meu">
+                <ul>
+                  <li><a href="#" class="top-meulink "><i class="tongyong-emu-i top-home top-meu-i "></i></a></li>
+                  <li>
+                      <a href="#" class="top-meulink"><i class="tongyong-emu-i top-home2 top-meu-i"></i></a>
+                      <div class="top-home2div">
+                          <a href="#" class="top-home2div-a">新手指引</a>
+                          <a href="#" class="top-home2div-a">资料库</a>
+                          <a href="#" class="top-home2div-a">战争学院</a>
+                          <a href="#" class="top-home2div-a">模式实验室</a>
+                      </div>
+                  </li>
+                    <li>
+                        <a href="#" class="top-meulink"><i class="tongyong-emu-i top-home3 top-meu-i"></i></a>
+                        <div class="top-home2div">
+                            <a href="#" class="top-home2div-a">点劵充值<i class="ty-i ico-h"></i></a>
+                            <a href="#" class="top-home2div-a">道具城</a>
+                            <a href="#" class="top-home2div-a">拍拍商城</a>
+                            <a href="#" class="top-home2div-a">CDKey兑换</a>
+                            <a href="#" class="top-home2div-a">周边商城</a>
+                        </div>
+                    </li>
+                    <li style="width: 307px">
+                        <a href="#" class="top-meulink"><i class="tongyong-emu-i top-home4 top-meu-i"></i></a>
+                        <div class="top-home2div">
+                            <a href="#" class="top-home2div-a">视频中心</a>
+                            <a href="#" class="top-home2div-a">活动中心</a>
+                            <a href="#" class="top-home2div-a">个人中心</a>
+                            <a href="#" class="top-home2div-a">官方论坛</a>
+                            <a href="#" class="top-home2div-a">官方微信</a>
+                            <a href="#" class="top-home2div-a">官方微博</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="top-meulink"><i class="tongyong-emu-i top-home5 top-meu-i"></i></a>
+                        <div class="top-home2div">
+                            <a href="#" class="top-home2div-a">赛事中心<i class="ty-i ico-h"></i></a>
+                            <a href="#" class="top-home2div-a">LPL职业联赛</a>
+                            <a href="#" class="top-home2div-a">高校联赛</a>
+                            <a href="#" class="top-home2div-a">城市英雄争霸赛</a>
+                            <a href="#" class="top-home2div-a">亡者峡谷</a>
+                            <a href="#" class="top-home2div-a">荣耀殿堂</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="top-meulink"><i class="tongyong-emu-i top-home6 top-meu-i"></i></a>
+                        <div class="top-home2div">
+                            <a href="#" class="top-home2div-a">网吧特权<i class="ty-i1 ico-h"></i></a>
+                            <a href="#" class="top-home2div-a">封号查询</a>
+                            <a href="#" class="top-home2div-a">体验服申请</a>
+                            <a href="#" class="top-home2div-a">LOL信用卡</a>
+                            <a href="#" class="top-home2div-a">服务器状态查询</a>
+                            <a href="#" class="top-home2div-a">审判天使裁决系统</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="top-meulink"><i class="tongyong-emu-i top-home7 top-meu-i"></i></a>
+                        <div class="top-home2div">
+                            <a href="#" class="top-home2div-a">常用问题</a>
+                            <a href="#" class="top-home2div-a">QQ在线客服</a>
+                            <a href="#" class="top-home2div-a">防沉迷验证</a>
+                            <a href="#" class="top-home2div-a">用户协定</a>
+                            <a href="#" class="top-home2div-a">玩家条例</a>
+                            <a href="#" class="top-home2div-a">插件公约</a>
+                        </div>
+                    </li>
+                    <li><a href="#" class="top-meulink" id="topMeuLink"><i class="tongyong-emu-i top-home8 top-meu-i"></i></a></li>
+
+                </ul>
+            </div>
+            <div class="login-top clearfix ">
+                <a href="#" class="top-link top-down"><strong></strong></a>
+                <a href="#" class="top-ty-a top-link top-link-lb"></a>
+                <a href="#" class="top-ty-a top-link top-link-2b"></a>
+                <a href="#" class="top-ty-a top-link top-link-3b"></a>
+                <div class="top-link top-login-ss">
+                    <div class="" style="padding: 14px 10px 0px 13px;">
+                        <div class="top-login-end">
+                            <a href="#"><img src="images/profileicon778.jpg"></a><span class="top-login-end-span"><i>LV 30</i></span>
+                        </div>
+                        <div class="class-name">
+                            <h4>累了请安静</h4>
+                            <p class="class-name-p">均衡教派 电信</p>
+                            <a class="class-name-a" href="#">注销</a>
+                        </div>
+
+                        <ul class="top-number">
+                            <li><em class="top-number-one">666666</em>总场数</li>
+                            <li><em>99999</em>点卷</li>
+                            <li><em>999999</em>金币</li>
+                            <li><em>9999999</em>声望值</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="top-bottom" id="topBooTTom" style="display: none;">
+                    <ul class="top-bottom-ul" style="height:305px" id="gaodu">
+                        <li><img  width="49" height="26" src="images/glory_pcgamer.png">2012年2月 2011 PC-Gamer年度更新游戏奖</li>
+                        <li><img  width="49" height="52" src="images/glory_top10.png">2012年1月  2011中国游戏风云榜"十大新锐网络游戏"、"十大最受欢迎网络游戏"、"最佳休闲竞技类网游"</li>
+                        <li><img  width="49" height="78" src="images/glory_fengyu.png">2012年1月 2011中国网游风云榜"中国年度最受欢迎网络游戏"、"中国年度最受欢迎2.5D网络游戏"、"中国年度最佳策略战略网游"、"中国年度推荐网游"</li>
+                        <li><img  width="49" height="26" src="images/glory_gamespy.png">2012年1月 Game Spy玩家投票"2011年度多人竞技游戏" </li>
+                        <li><img  width="49" height="26" src="images/glory_jinling.png">2011年11月  金翎奖"玩家最期待的网络游戏"</li>
+                        <li><img  width="49" height="26" src="images/glory_jyg.png">2010年11月  金摇杆奖"年度最佳网络游戏"</li>
+                        <li><img  width="49" height="26" src="images/glory_gdc.png">2010年10月  包揽GDC 2010五项大奖
+                            <ul style="color: #6E7890;padding-left: 60px;padding-top: 10px;">
+                                <li>■ Audience Award 玩家最佳选择</li>
+                                <li>■ Best Online Technology 最佳网络游戏开发技术</li>
+                                <li>■ Best Online Visual Arts 最佳网络游戏视觉艺术</li>
+                                <li>■ Best Online Game Design 最佳网络游戏设计</li>
+                                <li>■ Best New Online Game 最佳新网游</li>
+                            </ul>
+                        </li>
+                        <li><img  width="49" height="26" src="images/glory_ign.png">2010年2月 IGN玩家最喜爱多人游戏奖、年度策略游戏奖</li>
+                        <li><img  width="49" height="26" src="images/glory_gamespy.png">2009年12月 Game Spy玩家投票年度最佳PC游戏</li>
+                    </ul>
+                <p id="getgaodu" class="top-bottom-p">
+                    <a id="gink" href="#" ><strong style="display:none">更多</strong></a>
+                </p>
+            </div>
+
+        </div>
+        <!-- 中间部分-->
+        <div class="min miner">
+            <div class="clear-fix">
+                <div class="min-one-left" id="lbo">
+                    <ul class="min-one-left1">
+                        <li><a href="#"><img src="images/1464718304803197427.jpg"> </a></li>
+                        <li><a href="#"><img src="images/1464750387105970737.jpg"> </a></li>
+                        <li><a href="#"><img src="images/1464043561150871880.jpg"> </a></li>
+                        <li><a href="#"><img src="images/1464718304803197427.jpg"> </a></li>
+                        <li><a href="#"><img src="images/1464315024699275100.jpg"> </a></li>
+                    </ul>
+                    <div class="min-one-left2">
+                        <span class="rn">MSI专属皮肤</span><span>全新统治战场预热</span><span>LPL2日赛程</span><span>LPL第二周看点</span><span>天下英雄第17期</span>
+                    </div>
+                </div>
+                <div class="min-one-right" id="add">
+                    <ul class="min-one-right-a">
+                        <li id="ZonGHe" ><span class="tongyong-min ss1"></span></li>
+                        <li id="GongGao"><span class="tongyong-min ss2"></span></li>
+                        <li id="SaiShi"><span class="tongyong-min ss3"></span></li>
+                        <li id="LunTan"><span class="tongyong-min ss4"></span></li>
+                    </ul>
+                    <ul class="min-ont-right-b" id="cdd">
+                        <li id="ZonGheA" style="display: block">
+                            <ul class="clear-fix">
+                                <li class="first"><a href="#" class="tongyong-a" title="【论坛】寻找丢失的蘑菇，提莫的馈赠等你拿">【论坛】寻找丢失的蘑菇，提莫的馈赠等你拿</a></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【话题】维克兹的蜕变，重归中单！">【自制表情】多啦牌多啦鸡带你过节！！</a> <span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【话题】维克兹的蜕变，重归中单！">【话题】维克兹的蜕变，重归中单！！</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="LOL之内战，他们每天都在站队伍"> LOL之内战，他们每天都在站队伍</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【视频】新手上路，岩雀小司机开车易翻车">【视频】新手上路，岩雀小司机开车易翻车</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【蒸汽实验室】轻松上手小岩雀，直接匹配做高手">【蒸汽实验室】轻松上手小岩雀，直接匹配做高手</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="4大元素巨龙，哪种是最有争夺意义的？"> 4大元素巨龙，哪种是最有争夺意义的？</a><span class="date">06/01</span></li>
+                            </ul>
+                            <div style="text-align: right;padding-top: 5px;">
+                                <a href="" class="div-bjt">查看更多</a>
+                            </div>
+                        </li>
+                        <li id="GongGaoA" style="display: none">
+                            <ul class="clear-fix">
+                                <li class="first"><a href="#" class="tongyong-a" title="【论坛】寻找丢失的蘑菇，提莫的馈赠等你拿">MSI专属皮肤“长者之森 乐芙兰”限时上架</a></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【话题】维克兹的蜕变，重归中单！">腥红望月活动专项折扣皮肤开放购买</a> <span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【话题】维克兹的蜕变，重归中单！">末日将临，拭目以待！——万物皆无可逃</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="LOL之内战，他们每天都在站队伍"> LGD渴望复仇VG Condi与爱萝莉一决雌雄</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【视频】新手上路，岩雀小司机开车易翻车">【第四届全国高校联赛总决赛回顾视频</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【蒸汽实验室】轻松上手小岩雀，直接匹配做高手">6月2日WE对阵IM Condi 野区大战爱萝莉</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="4大元素巨龙，哪种是最有争夺意义的？"> 4大元素巨龙，哪种是最有争夺意义的？</a><span class="date">06/01</span></li>
+                            </ul>
+                            <div style="text-align: right;padding-top: 5px;">
+                                <a href="" class="div-bjt">查看更多</a>
+                            </div>
+                        </li>
+                        <li id="SaiShiA" style="display: none">
+                            <ul class="clear-fix">
+                                <li class="first"><a href="#" class="tongyong-a" title="【论坛】寻找丢失的蘑菇，提莫的馈赠等你拿">季中版本对职业赛场带来哪些变化</a></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【话题】维克兹的蜕变，重归中单！">【自制表情】多啦牌多啦鸡带你过节！！</a> <span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【话题】维克兹的蜕变，重归中单！">【话题】维克兹的蜕变，重归中单！！</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="LOL之内战，他们每天都在站队伍"> LOL之内战，他们每天都在站队伍</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【视频】新手上路，岩雀小司机开车易翻车">【视频】新手上路，岩雀小司机开车易翻车</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【蒸汽实验室】轻松上手小岩雀，直接匹配做高手">【蒸汽实验室】轻松上手小岩雀，直接匹配做高手</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="4大元素巨龙，哪种是最有争夺意义的？"> 4大元素巨龙，哪种是最有争夺意义的？</a><span class="date">06/01</span></li>
+                            </ul>
+                            <div style="text-align: right;padding-top: 5px;">
+                                <a href="" class="div-bjt">查看更多</a>
+                            </div>
+                        </li>
+                        <li id="LunLanA" style="display: none">
+                            <ul class="clear-fix">
+                                <li class="first"><a href="#" class="tongyong-a" title="【论坛】寻找丢失的蘑菇，提莫的馈赠等你拿">【论坛】寻找垃圾提莫，提莫的馈赠等你拿</a></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【话题】维克兹的蜕变，重归中单！">【自制表情】多啦牌多啦鸡带你过节！！</a> <span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【话题】维克兹的蜕变，重归中单！">【话题】维克兹的蜕变，重归中单！！</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="LOL之内战，他们每天都在站队伍"> LOL之内战，他们每天都在站队伍</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【视频】新手上路，岩雀小司机开车易翻车">【视频】新手上路，岩雀小司机开车易翻车</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="【蒸汽实验室】轻松上手小岩雀，直接匹配做高手">【蒸汽实验室】轻松上手小岩雀，直接匹配做高手</a><span class="date">06/01</span></li>
+                                <li class="ListNme"><i class="tongyong-min acr-arr"></i><a href="#" class=" lnk-type">[论坛]</a><a href="" class=" tongyong-b" title="4大元素巨龙，哪种是最有争夺意义的？"> 4大元素巨龙，哪种是最有争夺意义的？</a><span class="date">06/01</span></li>
+                            </ul>
+                            <div style="text-align: right;padding-top: 5px;">
+                                <a href="" class="div-bjt">查看更多</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="min-min-p"><a  style="color: #9fa4b1;" href="#">【调研】留下你的意见，我们会做得更好！</a></p>
+                </div>
+            </div>
+            <div class="clear-fix">
+                <div class="sp-left">
+                    <h2 class="f1 tongyong-min sp-vido"></h2>
+                    <a href="" class="f1 vido-submit"><i class="tongyong-min ico-submit"></i>我要投稿</a>
+                    <div style="padding-top: 5px;float: right;" class="fr"><a href="#" class=" tongyong-sp sp-min">进入视频中心</a></div>
+                    <div class="fr sp-left-b" id="JVidoss">
+                        <ul id="JVido" class="sp-left-b-a">
+                            <li rel="_n1" class="j-v">最新视频</li>
+                            <li rel="_n2">解说视频</li>
+                            <li rel="_n3">周免英雄</li>
+                            <li rel="_n4">赛事视频</li>
+                            <li rel="_n5">趣味锦集</li>
+                            <li rel="_n6">官方视频</li>
+                        </ul>
+                        <ul id="JVido1" class="clear-fix tongyong-JVido" style="display: block">
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(2).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(2).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(3).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西sss</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(4).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西5656</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(5).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0.jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                        </ul>
+                        <ul id="JVido2" class="clear-fix tongyong-JVido">
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(1).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(2).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(3).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(4).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(5).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0.jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                        </ul>
+                        <ul id="JVido3" class="clear-fix tongyong-JVido">
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(3).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(2).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(3).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(4).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(5).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0.jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                        </ul>
+                        <ul id="JVido4" class="clear-fix tongyong-JVido">
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(4).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(2).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(3).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(4).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(5).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0.jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                        </ul>
+                        <ul id="JVido5" class="clear-fix tongyong-JVido">
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(5).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(2).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(3).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(4).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(5).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0.jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                        </ul>
+                        <ul id="JVido6" class="clear-fix tongyong-JVido">
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0.jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(2).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(3).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(4).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0%20(5).jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li>
+                            <li>
+                                <a class="v-link" href="#"><img src="images/0.jpg"><span class="showdown1"></span><span class="v-meat"><span class="v-tite"></span></span><span class="showdown2"></span><i class="tongyong-min icco-v"></i> </a>
+                                <h5 class="v-name"><a href="#">咆哮时刻：老司机一言不合就开车！蝎子一路向西</a> </h5>
+                            </li></ul>
+                    </div>
+                </div>
+                <div class="sp-right">
+                    <h4 class="fr-left tongyong-min tite-lee"></h4>
+                    <div class="fr more"><a href="#" class="tongyong-sp more-ss more-link">查看所有英雄</a></div>
+                    <div class="fr-left yy-zl yy-bb" id="yy-list">
+                        <a title="暗裔剑魔 亚托克斯" id="ff"><img src="images/266_Web_0.jpg" width="76px" height="76px"><span class="sbg"><i class="tongyong-min sbc-i"></i></span><em  class="n">暗裔剑魔</em></a>
+                        <a title="暗裔剑魔 亚托克斯"><img src="images/1_Web_0.jpg" width="76px" height="76px"><span class="sbg"><i class="tongyong-min sbc-i"></i></span><em class="n">暗裔剑魔</em></a>
+                        <a title="暗裔剑魔 亚托克斯"><img src="images/40_Web_0.jpg" width="76px" height="76px"><span class="sbg"><i class="tongyong-min sbc-i"></i></span><em class="n">暗裔剑魔</em></a>
+                        <a title="暗裔剑魔 亚托克斯"><img src="images/202_Web_0.jpg" width="76px" height="76px"><span class="sbg"><i class="tongyong-min sbc-i"></i></span><em class="n">暗裔剑魔</em></a>
+                        <a title="暗裔剑魔 亚托克斯"><img src="images/96_Web_0.jpg" width="76px" height="76px"><span class="sbg"><i class="tongyong-min sbc-i"></i></span><em class="n">暗裔剑魔</em></a>
+                        <a title="暗裔剑魔 亚托克斯"><img src="images/21_Web_0.jpg" width="76px" height="76px"><span class="sbg"><i class="tongyong-min sbc-i"></i></span><em class="n">暗裔剑魔</em></a>
+                        <a title="暗裔剑魔 亚托克斯"><img src="images/58_Web_0.jpg" width="76px" height="76px"><span class="sbg"><i class="tongyong-min sbc-i"></i></span><em class="n">暗裔剑魔</em></a>
+                        <a title="暗裔剑魔 亚托克斯"><img src="images/107_Web_0.jpg" width="76px" height="76px"><span class="sbg"><i class="tongyong-min sbc-i"></i></span><em class="n">暗裔剑魔</em></a>
+                        <a title="暗裔剑魔 亚托克斯"><img src="images/112_Web_0.jpg" width="76px" height="76px"><span class="sbg"><i class="tongyong-min sbc-i"></i></span><em class="n">暗裔剑魔</em></a>
+                        <a title="暗裔剑魔 亚托克斯"><img src="images/101_Web_0.jpg" width="76px" height="76px"><span class="sbg"><i class="tongyong-min sbc-i"></i></span><em class="n">暗裔剑魔</em></a>
+
+                    </div>
+                    <div class="fr-left yy-bb yy-time">免费时间：2016-05-27 至 2016-06-03</div>
+                    <h2 class="fr-left tongyong-min title-ree"></h2>
+                    <div class="fr more">
+                        <a href="#" class="tongyong-sp more-ss more-link">查看所有</a>
+                    </div>
+                    <div class="fr yy-bb">
+                        <div class="fr-left yy-ziliao">
+                            <div class="act-img">
+                                <img src="images/1464317271_1436653066_11619_sSmallImgFile.jpg">
+                            </div>
+                            <i class="zl-zi">塔莉垭玩家攻略征集</i>
+                            <p class="zl-bj"></p>
+                        </div>
+                        <ul class="fr yy-xx" id="stop">
+                            <li class="txt-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="link-tit lb-dl"><em>老兵不死，只是凋零。</em><span class="tip">进行中</span></a></li>
+                            <li class="txt-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="link-tit lb-dl"><em>老兵不死，只是凋零。</em><span class="tip">进行中</span></a></li>
+                            <li class="txt-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="link-tit lb-dl"><em>老兵不死，只是凋零。</em><span class="tip">进行中</span></a></li>
+                            <li class="txt-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="link-tit lb-dl"><em>老兵不死，只是凋零。</em><span class="tip">进行中</span></a></li>
+                            <li class="txt-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="link-tit"><em>老兵不死，只是凋零。</em><span class="tipp">已结束</span></a></li>
+                            <li class="txt-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="link-tit"><em>老兵不死，只是凋零。</em><span class="tipp">已结束</span></a></li>
+                            <li class="txt-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="link-tit"><em>老兵不死，只是凋零。</em><span class="tipp">已结束</span></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 赛事中心战争学院 -->
+            <div class="clear-fix">
+                <!-- 赛事中心 -->
+                <div class="fr-left box1">
+                    <h2 class="fr-left h2-dd tongyong-min"></h2>
+                    <div class="fr more"><a href="#" class="icco-more icco-more2 more-link tongyong-top">查看更多</a></div>
+                    <div class="fr-left yy-bb colbox">
+                        <ul class="colbox-one" id="ss-zx">
+                            <li rel="_n1" class="colbox-one2">职业联赛</li>
+                            <li rel="_n2">甲级联赛</li>
+                            <li rel="_n3">德玛西亚杯</li>
+                            <li rel="_n4">高校联赛</li>
+                            <li rel="_n5">城市争霸赛</li>
+                            <li rel="_n6">QQ网吧联赛</li>
+                            <li rel="_n7">亡者峡谷</li>
+                        </ul>
+                        <ul class="clear-fix" id="ss-zzb">
+                            <li id="ss-zzb1" class="tabcont" style="display: block">
+                                <div class="fr-left eveing">
+                                    <a href="#"><img src="images/1452652806843163019.jpg"></a><a href="#" class="tongyong-min minsup">进入赛事页面</a>
+                                </div>
+                                <div class="fr ereing">
+                                    <div>
+                                     <a href="#" class="eve-tite">2016英雄联盟职业联赛春季赛</a><p>时间：2016-01-14-2016-04-26</p><p>地点：上海虹桥天地演艺中心3F（多功能厅）</p><p class="tongyong-min eve-mum"><i class="fbig">375110</i>人关注</p>
+                                    </div>
+                                    <ul class="clear-fix" style="padding-top: 15px;">
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">2016LPL分组抽签结果出炉</a><span class="date">01/13</span></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li id="ss-zzb2" class="tabcont">
+                                <div class="fr-left eveing">
+                                    <a href="#"><img src="images/1452652806843163019.jpg"></a><a href="#" class="tongyong-min minsup">进入赛事页面</a>
+                                </div>
+                                <div class="fr ereing">
+                                    <div>
+                                        <a href="#" class="eve-tite">2016英雄联盟职业联赛春季赛2</a><p>时间：2016-01-14-2016-04-26</p><p>地点：上海虹桥天地演艺中心3F（多功能厅）</p><p class="tongyong-min eve-mum"><i class="fbig">375110</i>人关注</p>
+                                    </div>
+                                    <ul class="clear-fix" style="padding-top: 15px;">
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">2016LPL分组抽签结果出炉</a><span class="date">01/13</span></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li class="tabcont" id="ss-zzb3">
+                                <div class="fr-left eveing">
+                                    <a href="#"><img src="images/1452652806843163019.jpg"></a><a href="#" class="tongyong-min minsup">进入赛事页面</a>
+                                </div>
+                                <div class="fr ereing">
+                                    <div>
+                                        <a href="#" class="eve-tite">2016英雄联盟职业联赛春季赛3</a><p>时间：2016-01-14-2016-04-26</p><p>地点：上海虹桥天地演艺中心3F（多功能厅）</p><p class="tongyong-min eve-mum"><i class="fbig">375110</i>人关注</p>
+                                    </div>
+                                    <ul class="clear-fix" style="padding-top: 15px;">
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">2016LPL分组抽签结果出炉</a><span class="date">01/13</span></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li class="tabcont" id="ss-zzb4">
+                                <div class="fr-left eveing">
+                                    <a href="#"><img src="images/1452652806843163019.jpg"></a><a href="#" class="tongyong-min minsup">进入赛事页面</a>
+                                </div>
+                                <div class="fr ereing">
+                                    <div>
+                                        <a href="#" class="eve-tite">2016英雄联盟职业联赛春季赛4</a><p>时间：2016-01-14-2016-04-26</p><p>地点：上海虹桥天地演艺中心3F（多功能厅）</p><p class="tongyong-min eve-mum"><i class="fbig">375110</i>人关注</p>
+                                    </div>
+                                    <ul class="clear-fix" style="padding-top: 15px;">
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">2016LPL分组抽签结果出炉</a><span class="date">01/13</span></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li class="tabcont" id="ss-zzb5">
+                                <div class="fr-left eveing">
+                                    <a href="#"><img src="images/1452652806843163019.jpg"></a><a href="#" class="tongyong-min minsup">进入赛事页面</a>
+                                </div>
+                                <div class="fr ereing">
+                                    <div>
+                                        <a href="#" class="eve-tite">2016英雄联盟职业联赛春季赛5</a><p>时间：2016-01-14-2016-04-26</p><p>地点：上海虹桥天地演艺中心3F（多功能厅）</p><p class="tongyong-min eve-mum"><i class="fbig">375110</i>人关注</p>
+                                    </div>
+                                    <ul class="clear-fix" style="padding-top: 15px;">
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">2016LPL分组抽签结果出炉</a><span class="date">01/13</span></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li class="tabcont" id="ss-zzb6">
+                                <div class="fr-left eveing">
+                                    <a href="#"><img src="images/1452652806843163019.jpg"></a><a href="#" class="tongyong-min minsup">进入赛事页面</a>
+                                </div>
+                                <div class="fr ereing">
+                                    <div>
+                                        <a href="#" class="eve-tite">2016英雄联盟职业联赛春季赛6</a><p>时间：2016-01-14-2016-04-26</p><p>地点：上海虹桥天地演艺中心3F（多功能厅）</p><p class="tongyong-min eve-mum"><i class="fbig">375110</i>人关注</p>
+                                    </div>
+                                    <ul class="clear-fix" style="padding-top: 15px;">
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">2016LPL分组抽签结果出炉</a><span class="date">01/13</span></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li class="tabcont" id="ss-zzb7">
+                                <div class="fr-left eveing">
+                                    <a href="#"><img src="images/1452652806843163019.jpg"></a><a href="#" class="tongyong-min minsup">进入赛事页面</a>
+                                </div>
+                                <div class="fr ereing">
+                                    <div>
+                                        <a href="#" class="eve-tite">2016英雄联盟职业联赛春季赛7</a><p>时间：2016-01-14-2016-04-26</p><p>地点：上海虹桥天地演艺中心3F（多功能厅）</p><p class="tongyong-min eve-mum"><i class="fbig">375110</i>人关注</p>
+                                    </div>
+                                    <ul class="clear-fix" style="padding-top: 15px;">
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">英雄联盟职业联赛正式规则</a><span class="date">01/13</span></li>
+                                        <li class="txtlist-nape"><i class="txt-nape-i tongyong-min"></i><a href="#" class="lnk-types">2016LPL分组抽签结果出炉</a><span class="date">01/13</span></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 战争学院 -->
+                <div class="fr box2">
+                    <h2 class="fr-left tongyong-min tite-101"></h2>
+                    <div class="fr more">
+                        <a href="#" class="tongyong-sp more-ss more-link">查看所有</a>
+                    </div>
+                    <div class="fr-left yy-bb">
+                        <ul class="clear-fix">
+                            <li style="display: block">
+                                <ul class="fr-left box2-one">
+                                    <li id="box1"><span class="mas-radio"><i class="i i-i"></i></span><label>经典模式</label></li>
+                                    <li id="box2"><span class="mas-radio"><i class="i"></i></span><label>极地大乱斗</label></li>
+                                </ul>
+                                <div id="indexMediaSelect1" class="fr box101-select">
+                                    <select class="box101-slicd">
+                                        <option value="0">本周免费英雄</option>
+                                        <option value="1">末日使者</option>
+                                        <option value="2">武器大师</option>
+                                        <option value="3">永猎双子</option>
+                                        <option value="4">机械公敌</option>
+                                        <option value="5">炼金术师</option>
+                                        <option value="6">燕雀</option>
+                                    </select>
+                                </div>
+                                <ul id="jdms" class="fr-left yy-bb-cc" style="display: block">
+                                    <li class="txt-titles">
+                                        <i class="txt-nape-i tongyong-min"></i>
+                                        <a href="#" class=" link-tit">6.9战士打野的信仰！蓝翔毕业虚空挖掘机</a>
+                                        <div class="bj-box1"><span class="fr submin"><i class="emat"></i><i class="emeatb" style="width: 70%"></i></span></div>
+                                    </li>
+                                    <li class="txt-titles">
+                                        <i class="txt-nape-i tongyong-min"></i>
+                                        <a href="#" class=" link-tit">灵鸡漂移你还不会？ Xiaohu教你玩沙漠皇帝</a>
+                                        <div class="bj-box1"><span class="fr submin"><i class="emat"></i><i class="emeatb" style="width: 70%"></i></span></div>
+                                    </li>
+                                    <li class="txt-titles">
+                                        <i class="txt-nape-i tongyong-min"></i>
+                                        <a href="#" class=" link-tit">首轮全胜就靠他：虎掌门教你玩沙皇</a>
+                                        <div class="bj-box1"><span class="fr submin"><i class="emat"></i><i class="emeatb" style="width: 70%"></i></span></div>
+                                    </li>
+                                    <li class="txt-titles">
+                                        <i class="txt-nape-i tongyong-min"></i>
+                                        <a href="#" class=" link-tit">SKT夺冠的终极武器，冠军辅助唤潮鲛姬</a>
+                                        <div class="bj-box1"><span class="fr submin"><i class="emat"></i><i class="emeatb" style="width: 70%"></i></span></div>
+                                    </li>
+                                    <li class="txt-titles">
+                                        <i class="txt-nape-i tongyong-min"></i>
+                                        <a href="#" class=" link-tit">软妹辅助也有新春天？ Wolf教你玩娜美</a>
+                                        <div class="bj-box1"><span class="fr submin"><i class="emat"></i><i class="emeatb" style="width: 70%"></i></span></div>
+                                    </li>
+                                </ul>
+                                <ul class="fr-left yy-bb-cc" id="jddd">
+                                    <li class="txt-titles">
+                                        <i class="txt-nape-i tongyong-min"></i>
+                                        <a href="#" class=" link-tit">LOL丽桑卓极地大乱斗出装 冰霜女王降临</a>
+                                        <div class="bj-box1"><span class="fr submin"><i class="emat"></i><i class="emeatb" style="width: 70%"></i></span></div>
+                                    </li>
+                                    <li class="txt-titles">
+                                        <i class="txt-nape-i tongyong-min"></i>
+                                        <a href="#" class=" link-tit">灵鸡漂移你还不会？ Xiaohu教你玩沙漠皇帝</a>
+                                        <div class="bj-box1"><span class="fr submin"><i class="emat"></i><i class="emeatb" style="width: 70%"></i></span></div>
+                                    </li>
+                                    <li class="txt-titles">
+                                        <i class="txt-nape-i tongyong-min"></i>
+                                        <a href="#" class=" link-tit">首轮全胜就靠他：虎掌门教你玩沙皇</a>
+                                        <div class="bj-box1"><span class="fr submin"><i class="emat"></i><i class="emeatb" style="width: 70%"></i></span></div>
+                                    </li>
+                                    <li class="txt-titles">
+                                        <i class="txt-nape-i tongyong-min"></i>
+                                        <a href="#" class=" link-tit">SKT夺冠的终极武器，冠军辅助唤潮鲛姬</a>
+                                        <div class="bj-box1"><span class="fr submin"><i class="emat"></i><i class="emeatb" style="width: 70%"></i></span></div>
+                                    </li>
+                                    <li class="txt-titles">
+                                        <i class="txt-nape-i tongyong-min"></i>
+                                        <a href="#" class=" link-tit">软妹辅助也有新春天？ Wolf教你玩娜美</a>
+                                        <div class="bj-box1"><span class="fr submin"><i class="emat"></i><i class="emeatb" style="width: 70%"></i></span></div>
+                                    </li>
+                                </ul>
+                                <ul class="fr-left yy-dd box3">
+                                    <li>
+                                        <a href="#"><img src="images/1388641716767393855.jpg"></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 客服专区 -->
+            <div class="fr-left yy-dd kf">
+                <h2 class="fr-left tongyong-min tite-kf"></h2>
+                <div class="fr more">
+                    <a href="#" class="aclolr">QQ在线客服</a><p class="f9">|</p><a href="#" class="aclolr">自助工具</a>
+                </div>
+                <div class="fr-left widthty tongyong-min wd">
+                    <ul class="fr-left wd-left" id="wdlt">
+                        <li  rel="_n1" class="love">自助服务</li>
+                        <li rel="_n2">常见问题列表</li>
+                    </ul>
+                    <div class="fr fknav-lnk">
+                        <a href="#">登录相关</a><p class="f9">|</p><a href="#">游戏相关</a><p class="f9">|</p><a href="#">电脑及其他问题</a>
+                    </div>
+                </div>
+                <ul class="fl-left widthty list-kf">
+                        <li id="fw">
+                            <ul id="fw-a" class="clear-fix">
+                                <li class="fw-textlist">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">登录相关问题</a>
+                                </li>
+                                <li class="fw-textlist">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">登录相关问题</a>
+                                </li>
+                                <li class="fw-textlist">
+                                <i class="txt-nape-i tongyong-min"></i>
+                                <a href="#" class="lnk-types">防沉迷系统限制以及信息修改的说明</a>
+                            </li>
+                                <li class="fw-textlist">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">防沉迷系统限制以及信息修改的说明</a>
+                                </li>
+                                <li class="fw-textlist">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">登录相关问题</a>
+                                </li>
+                                <li class="fw-textlist">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">防沉迷系统限制以及信息修改的说明</a>
+                                </li>
+                                <li class="fw-textlist">
+                                <i class="txt-nape-i tongyong-min"></i>
+                                <a href="#" class="lnk-types">防沉迷系统限制以及信息修改的说明</a>
+                            </li>
+                                <li class="fw-textlist">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">防沉迷系统限制以及信息修改的说明</a>
+                                </li>
+                                <li class="fw-textlist">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">防沉迷系统限制以及信息修改的说明</a>
+                                </li>
+                                <li class="fw-textlist">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">防沉迷系统限制以及信息修改的说明</a>
+                                </li>
+                            </ul>
+                            <div class="fr more"><a href="http://lol.qq.com/web201310/101/guides.shtml" target="_blank" class="more-lnk2 publicspr ico-more2ssa tongyong-sp">查看更多</a></div>
+                        </li>
+                        <li id="lb">
+                            <ul id="lb-a" class="clear-fix">
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                                <li class="fw-textlist smd">
+                                    <i class="txt-nape-i tongyong-min"></i>
+                                    <a href="#" class="lnk-types">CDKEY兑换</a>
+                                </li>
+                            </ul>
+                            <div class="fr more"><a href="http://lol.qq.com/web201310/101/guides.shtml" target="_blank" class="more-lnk2 publicspr ico-more2ssa tongyong-sp">查看更多</a></div>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div class="fotter">
+            <div class="foter-more foter-weixin">
+                <i class="tongyong-db foter-i"></i>
+                <p class="fb">英雄，我们在这里等你</p>
+                <p>扫描下载《英雄联盟》，官方APP<br>获取最新官方动态</p>
+            </div>
+            <div class="foter-more">
+                <p class="fb"> 温馨提示：本游戏适合18岁(含)以上玩家娱乐</p>
+                <ul class="foter-tu">
+                    <li>抵制不良游戏</li><li>抵制不良游戏</li><li>抵制不良游戏</li><li>抵制不良游戏</li><li>抵制不良游戏</li><li>抵制不良游戏</li><li>抵制不良游戏</li><li>抵制不良游戏</li>
+
+                </ul>
+            </div>
+            <div class="for-ms">
+                <div id="fod1" class="fod1">
+                    <span class="fr-left">英雄联盟 官方合作媒体</span>
+                    <i class="fod1-i tongyong-top fr-left"></i>
+                </div>
+                <div id="fod2" class="fod2">
+                    <a href="#">英雄联盟大咖</a>
+                    <a href="#">英雄联盟大咖</a>
+                    <a href="#">英雄联盟大咖</a>
+                    <a href="#">掌游宝</a>
+                    <a href="#">掌游宝</a>
+                    <a href="#">掌游宝</a>
+                    <a href="#">英雄联盟大咖</a>
+                    <a href="#">英雄联盟大咖</a>
+                    <a href="#">英雄联盟大咖</a>
+                    <a href="#">掌游宝</a>
+                    <a href="#">英雄联盟大咖</a>
+                    <a href="#">掌游宝</a>
+                </div>
+            </div>
+            <div class="fot-f">
+                <a class="fr-left tongyong-db db-pos" href="#"></a>
+                <ul class="fr fot-fod">
+                    <li>
+                        <a class="c4f6" href="#">腾讯互动娱乐</a><span class="f9 plr10">|</span><a  class="c4f6" href="#">腾讯互动娱乐</a><span class="f9 plr10">|</span><a class="c4f6" href="#">腾讯互动娱乐</a><span class="f9 plr10">|</span><a class="c4f6" href="#">腾讯互动娱乐</a><span class="f9 plr10">|</span><a class="c4f6" href="#">腾讯互动娱乐</a><span class="f9 plr10">|</span><a class="c4f6" href="#">腾讯互动娱乐</a><span class="f9 plr10">|</span><a class="c4f6" href="#">腾讯互动娱乐</a><span class="f9 plr10">|</span><a class="c4f6" href="#">腾讯互动娱乐</a>
+                    </li>
+                    <li class="fr">
+                        <a href="#" class="c4f6">腾讯公司版权所有</a>
+                    </li>
+                    <li class="f8">COPYRIGHT © 1998 - 2016 TENCENT. ALL RIGHTS RESERVED.</li>
+                    <li class="f8">© 2012 Riot Games, Inc. ALL RIGHTS RESERVED.</li>
+                    <li>
+                        文网进字[2011] 004号 & ISBN 978-7-89989-145-2<span class="f9 plr10">|</span><a href="#" class="c4f6">新出网证（粤）字010号</a><span class="f9 plr10">|</span><a href="#" class="c4f6">粤网文[2014]0633-233号</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="toptopa smd sfsfsfs">
+            <ul class="toptopa-a">
+                <li class="smd toptop-tg"><a href="#" class="a-blink"></a></li>
+                <li class="smd toptop-gg"><a href="#" class="a-blink"></a></li>
+                <li class="toptop-ii">
+                    <p class="smd ss-fist"><a href="#" class="out-link">返回官网首页</a></p>
+                    <P style="float: right;"><a href="#" class="ss1-a">游戏下载</a><a href="#" class="ss1-sb">游戏充值</a></P>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

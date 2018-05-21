@@ -1,0 +1,26 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding:0;
+}
+a,ul,ol{
+    display: block;
+}
+li{
+    list-style-type:none;
+}
+a{text-decoration:none;
+}
+
+body{
+font-size: 14px;
+}
+li{
+    text-align: inherit;
+    list-style-type: none;
+}
+.div1{
+    width: 800px;
+    height: 500px;
+    margin: 20px auto;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<westorm>
+    <back>
+        <name>三国演义</name>
+        <types>文学</types>
+        <wosm>描述</wosm>
+    </back>
+    <back>
+        <name>水浒传</name>
+        <types>文学</types>
+        <wosm>草寇or英雄豪杰</wosm>
+    </back>
+    <back>
+        <name>西游记</name>
+        <types>文学</types>
+        <wosm>描述</wosm>
+    </back>
+</westorm>

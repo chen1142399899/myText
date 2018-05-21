@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<input type="button" id="btn" value="点我">
+<script src="../js/fnAjax.ts" type="text/javascript" rel="stylesheet"></script>
+<script type="text/javascript">
+    window.onload=function () {
+        document.getElementById("btn").onclick=function(){
+        	var ament={
+        		url:"../data/00data.php",
+                type:"get",
+                dataType:"json",
+                success:function (data) {
+                     alert(data);
+                }
+            };
+            ajax(ament);
+        };
+    }
+</script>
+</body>
+</html>

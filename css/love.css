@@ -1,0 +1,47 @@
+body{
+    background: url("../img/backgrd.jpg");
+}
+.head{
+
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.head-ul{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 40%;
+}
+.head-ul li{
+    margin-left: 50px;
+    float: left;
+    background: #DBDBDB;
+    border:2px solid #00ffcc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+a{
+    color: #6E7890;
+}
+a:hover{
+    color: #eeeeee;
+}
+.head-ul li:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);/* 谷歌或者safari浏览器兼容 */
+    -o-transform:scale(1.2);/* opera浏览器 */
+    -moz-transform:scale(1.2);/* firefox 浏览器 */
+    background: #6E7890;
+
+}
+.head{
+    border:1px solid #faf2cc;
+    border-radius: 10px;
+}
+.h2{
+    color: #fafafa !important;
+}

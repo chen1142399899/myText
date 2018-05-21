@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" rel="stylesheet"  src="../JS/jquery-1.11.1.min.js"></script>
+    <script  type="text/javascript" rel="stylesheet" src="../JS/angular-1.0.1.min.js"></script>
+</head>
+<body ng-app="hd">
+    <div ng-controller="ctrl">
+        商品名称:{{goods.title}}<br />
+        价格:{{goods.price}}<br />
+        购买数量:{{goods.num}}<br />
+        总计:{{goods.price*goods.num}}<br />
+        <button ng-click="add()">增加</button>
+        <button ng-click="reduce()">减少</button>
+    </div>
+<script type="text/javascript">
+    var m=angular.module("hd",[]);
+    m.controller("ctrl",["$scope",function ($scope) {
+        $scope.goods={"title":"apple mac","price":300,"num":0};
+        $scope.fun=function () {
+            alert(3);
+        };
+        $scope.add=function () {
+            $scope.goods.num=Math.min(++$scope.goods.num,6);//最多加到6
+        };
+        $scope.reduce=function () {
+          $scope.goods.num=Math.max(--$scope.goods.num,0);//最少为0
+        };
+    }])
+</script>
+</body>
+</html>

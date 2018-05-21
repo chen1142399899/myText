@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+   <script type="text/javascript" rel="stylesheet" src="../JS/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" rel="stylesheet" src="../JS/form.js"></script>
+    <link href="../css/ty.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+
+        label{
+            width: 98px;
+
+        }
+        em{
+            font-size:14px
+        }
+        label span{
+            float: left;
+            display: block;
+            width: 98px;
+            line-height: inherit;
+            text-align:right;
+            font-size: 12px;
+        }
+
+        label.error{
+            float: none;
+            color: red;
+            padding-left: .5em;
+            vertical-align:top;/*设置元素的垂直对齐方式*/
+        }
+        li{
+            clear:both;
+            margin-top: 10px;
+        }
+        .submit{
+            margin-left: 12em;
+        }
+        em{
+            font-weight: bold;
+            padding-right: 1em;
+            vertical-align: top;
+        }
+        em.error{
+            background-color:  yellow;
+        }
+        em.success{
+            padding-left: 16px;
+            background-color: aqua;
+        }
+        /*}*/
+        #commentForm{
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+        .div2{
+            background: url("../img/rw1.jpg") no-repeat 0 0;
+            background-size:cover;/*全屏显示*/
+        }
+    </style>
+
+</head>
+<body class="div2">
+    <div class="dive1 ">
+        <form class="cmxform" id="commentForm" >
+                    <ul>
+                        <li>
+                            <label class="label"><span>姓名:</span></label>
+                            <input type="text" required="required"  class="required" name="username" value=""  placeholder=""/>
+                        </li>
+                        <li>
+                            <label class="label"><span>输入密码:</span></label>
+                            <input type="password" class="required" name="password" placeholder="" datatype="*6"/>
+                        </li>
+                        <li>
+                            <label class="label"><span>再次输入密码:</span></label>
+                            <input type="password" class="required" name="password" placeholder=""/>
+                        </li>
+                        <li>
+                            <label class="label"><span>选择性别:</span></label>
+                            <em>男</em><input placeholder="" type="radio"  class="required ssx" name="radioman"/>
+                                <em>女</em><input placeholder="" type="radio"  class="required ssx" name="radioman"/>
+                        </li>
+                        <li>
+                            <label class="label"><span>输入邮箱:</span></label>
+                            <input type="text" class="required" name="emal" placeholder=""/>
+                        </li>
+                        <li>
+                            <label class="label"><span>您的爱好:</span></label>
+                            <em>篮球</em><input type="checkbox" class="required" name="emal" placeholder=""/>
+                            <em>足球</em><input type="checkbox" class="required" name="emal" placeholder=""/>
+                            <em>羽毛球</em><input type="checkbox" class="required" name="emal" placeholder=""/>
+                        </li>
+                        <li>
+                            <label class="label"><span>输入网址:</span></label>
+                            <input type="text" class="laji" name="url" id="laji" placeholder=""/>
+                        </li>
+                        <li>
+                            <label class="label"><span>您的职业:</span></label>
+                            <label><select name="cars" >
+                                <option value="volvo">--请选择--</option>
+                                <option value="volvo">学生</option>
+                                <option value="saab">IT民工</option>
+                                <option value="fiat">科学家</option>
+                                <option value="audi">运动员</option>
+                            </select>
+                            </label>
+                        </li>
+                       <li>
+                           <label class="label" style="margin-right: 50px">
+                               <input type="submit" value="提交" class="required">
+
+                           </label>
+                           <label class="label">
+                               <input type="reset" value="重置" class="required">
+                           </label>
+
+                       </li>
+                    </ul>
+
+        </form>
+    </div>
+
+    <script type="text/javascript" rel="stylesheet" src="../JS/validform.js"></script>
+</body>
+</html>

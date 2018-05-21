@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤器</title>
+    <script src="./JS/vue.min.js" type="text/javascript" rel="stylesheet"></script>
+</head>
+<body>
+<div id="app"></div>
+<script type="text/javascript">
+    Vue.filter('uppercase', function(value) {
+        if (!value) { return ''}
+        value = value.toString();
+        return value.charAt(0).toUpperCase() + value.slice(1)
+    });
+
+    var vm = new Vue({
+        el:'#app',
+        data: {
+            message: 'test'
+        }
+    });
+//    Vue.filter( id, [definition] );
+
+//    参数：
+//
+//    {string} id
+//    {Function} [definition]
+//    用法：
+//
+//    注册或获取全局过滤器。
+
+    // 注册
+    Vue.filter('my-filter', function (value) {
+// 返回处理后的值
+    });
+    // getter，返回已注册的过滤器
+    var myFilter = Vue.filter('my-filter');
+</script>
+</body>
+</html>

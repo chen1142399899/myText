@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../JS/jquery-1.11.1.min.js" type="text/javascript" rel="stylesheet"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            typing();
+        });
+        var text;//p标签里对应的字符串
+        var index = 0;//text字符串的下标
+        var id;//setTimeout()的返回值,用于关闭clearTimeout(id)
+        function typing()
+        {
+            text = $("#typing").text();
+            $("#typing").text("");
+            $("#typing").show();
+            typed();
+        }
+        result = "";
+        function typed(){
+            result += text.charAt(index);
+            $("#typing").text(result + (index & 1 ? "_" : " "));
+            if(index <　text.length - 1)
+            {
+                index++;
+                id = setTimeout("typed()", 1000);
+            }
+            else
+                clearTimeout(id);
+        }
+
+
+    </script>
+</head>
+<body>
+<p id="typing">The furthest distance in the world.Is not between life and death.But when I stand in front of you.Yet you don't know that I love you</p>
+</body>
+
+
+</html>

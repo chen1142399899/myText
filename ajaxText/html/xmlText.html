@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xml测试</title>
+</head>
+<script type="text/javascript">
+    window.onload=function () {
+        var btn=document.getElementById('btn');
+        btn.onclick=function () {
+            love();
+        };
+      function love() {
+          document.getElementById('tab').innerHTML='';
+          var xmls=null;
+//          if(window.XMLHttpRequest){
+//              xmls=new XMLHttpRequest();
+//          }else{
+//              xmls=new ActiveXObject('Microsoft.XMLHTTP');
+//          };
+          try{
+	                      xmls=new XMLHttpRequest();
+
+          }
+          catch(e) {
+	          xmls=new ActiveXObject('Microsoft.XMLHTTP');
+          }
+          xmls.open('get','../data/xmltext.xml');
+          xmls.send(null);
+
+	      xmls.onreadystatechange = function(){
+
+//              0未初始化 1载入 2载入完成 3交互 4完成
+              if(xmls.readyState==4 && xmls.status==200){
+              	alert(8);
+                  var data=xmls.responseXML;
+	              alert(data);
+
+                  var bs=data.getElementsByTagName('westorm')[0];
+                  var books = bs.getElementsByTagName('back');
+                  var tag = '';
+                  for(var i=0;i<books.length;i++){
+
+                      var book=books[i];
+                      var name=book.getElementsByTagName('name')[0];
+                      var types=book.getElementsByTagName('types')[0];
+                      var sb=book.getElementsByTagName('wosm')[0];
+                      tag+='<tr><td>'+getNodeText(name)+'</td><td>'+getNodeText(types)+'</td><td>'+getNodeText(sb)+'</td></tr>'
+
+                  }
+
+//                创建节点createElement
+	              var tBody = document.createElement('tbody');
+	              tBody.innerHTML=tag;
+//   向节点添加添加最后一个子节点
+	              document.getElementById('tab').appendChild(tBody);
+              }
+          }
+      };
+
+    };
+//    获取节点文本内容
+    function getNodeText(node){
+	    if(window.ActiveXObject){//IE
+		    return node.text;
+	    }else{//标准浏览器
+		    if(node.nodeType == 1){
+			    return node.textContent;
+		    }
+	    }
+    }
+</script>
+<body>
+<input type="button"value="点击" id="btn">
+<div>
+    <table id="tab">
+
+    </table>
+</div>
+</body>
+</html>

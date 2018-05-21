@@ -1,0 +1,123 @@
+.Animatrions_a
+{
+    background: url("../img/rw1.jpg");
+
+    transform: rotateY(0deg) translateZ(260px);
+}
+@keyframes lovers{
+    form{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+.fo div{
+    float: left;
+    width: 300px;
+    background-size: 300px 300px;
+    height: 300px;
+    position: absolute;
+
+}
+.Animatrions_b{
+    background: url("../img/lq1.jpg");
+
+    transform: rotateY(90deg) translateZ(260px);
+}
+.Animatrions_c{
+    background: url("../img/lq2.jpg");
+
+    transform: rotateY(180deg) translateZ(260px);
+}
+.Animatrions_d{
+    background: url("../img/lq3.jpg");
+
+    transform: rotateY(270deg) translateZ(260px);
+}
+
+.fo{
+    width: 300px;
+    height: 300px;
+    transform-style:preserve-3D;
+    transform-origin:50%;
+    -webkit-animation:lovers 10s linear infinite;
+    animation:lovers 10s linear infinite;
+
+}
+
+/*定义动画贴*/
+@keyframes mycolor {
+    0%{
+        background-color: red;
+        -webkit-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+    }20%{
+        background-color: darkblue;
+             -webkit-transform:rotate(50deg);
+             -o-transform:rotate(50deg);
+             -moz-transform:rotate(50deg);
+         }
+    50%{
+        background-color: yellow;
+        -webkit-transform:rotate(100deg);
+        -o-transform:rotate(100deg);
+        -moz-transform:rotate(100deg);
+    }80%{
+    background-color: #00A887;
+             -webkit-transform:rotate(150deg);
+             -o-transform:rotate(150deg);
+             -moz-transform:rotate(150deg);
+         }
+    100%{
+        background-color: #ff7300;
+        -webkit-transform:rotate(200deg);
+        -moz-transform:rotate(200deg);
+        -o-transform:rotate(200deg);
+    }
+}
+body{
+    transform-style:preserve-3D;
+}
+
+/*.Animatrions_a:hover{*/
+    /*-webkit-animation-name: mycolor;*/
+    /*-o-animation-name: mycolor;*/
+    /*-moz-animation-name: mycolor;*/
+    /*-webkit-animation-duration:5s;*/
+
+    /*-o-animation:mycolor 5s ease infinite;*/
+    /*!*-webkit-animation:mycolor 5s ease infinite;*!*/
+    /*-webkit-animation-timing-function: ease;*/
+    /*!*鼠标放在上面一直循环*!*/
+    /*-webkit-animation-iteration-count: infinite;*/
+
+/*}*/
+
+
+/*渐变*/
+.Gradient{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+ }
+.Gradient div{
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    height: 150px;
+    margin-top: 20px;
+    background-color: red;
+}
+/*
+150 渐变范围
+中心位置参照的是左上角
+
+*/
+.Gradient1{
+    background-image: radial-gradient(150px at center center ,yellow,green);
+}
+.Gradient2{
+    background-image: radial-gradient(yellow,green);
+}

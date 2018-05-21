@@ -1,0 +1,87 @@
+body{
+
+    background-color: #4e4e4e;
+}
+div{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #E6E6E6;
+    margin: 50px auto;
+    padding: 0;
+
+}
+.cenntr{
+    width: 1024px;
+    height: 500px;
+}
+.cenntr_ul{
+    width: 100%;
+    height: 100%;
+
+}
+.cenntr_ul li{
+    width: 200px;
+    height: 200px;
+    box-shadow:1px 1px 1px #666;
+    transform: rotate(250deg);
+}
+a{
+    width: 200px;
+    height: 200px;
+}
+.cenntr_ul li img{
+    width: 196px;
+    height: 196px;
+
+
+    transition: all 5s;
+    -webkit-transition: all 5s; /*  */
+    -moz-animation: all 5s;
+    border: 2px solid #ffff00;
+
+    padding:0;
+    z-index:1;
+}
+img:hover{
+
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);/* 谷歌或者safari浏览器兼容 */
+	-o-transform:scale(1.2);/* opera浏览器 */
+	-moz-transform:scale(1.2);/* firefox 浏览器 */
+    z-index:1;
+}
+.cenntr_ul li{
+    float: left;
+
+    position: relative;
+}
+.fd{
+    position: absolute;
+    bottom: 20px;;
+    left: 40px;
+    color: yellow;
+}
+.fy{
+    display: none;
+}
+.tpfd{
+
+
+}
+/*X轴翻转*/
+.rotateX:hover{
+    transform: rotateX(360deg);
+    transition: all 5s;
+    -webkit-transform:rotateX(360deg);
+    -moz-transform:rotateX(360deg);
+}
+/*Y轴翻转*/
+.rotateY:hover{
+    transform: rotateY(180deg);
+    transition: all 5s;
+}
+/*沿Z轴方向旋转*/
+.rotateZ:hover{
+    transform: rotateZ(360deg);
+    transition: all 1s;
+}

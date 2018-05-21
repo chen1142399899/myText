@@ -1,0 +1,21 @@
+#div1{
+    width: 800px;
+    height: 500px;
+    margin:10px auto;
+
+}
+#body_1{
+    background-color:#ff7300;
+}
+video{
+    width: 100%;
+}
+.div1{
+    width: 800px;
+    height: 500px;
+    margin:0 auto;
+    font-family: "Bodoni MT";
+    font-size: 20px;
+    line-height: 30px;
+    color: aqua;
+}

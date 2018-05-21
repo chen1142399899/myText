@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="https://unpkg.com/better-scroll/dist/bscroll.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .head{
+            width: 100%;
+           overflow: hidden;
+            white-space: nowrap;
+            height: 250PX;
+        }
+        .head>div{
+            width: 100%; overflow: hidden;height: 100%;
+            height: 100%;
+        }
+       .head div div{
+           float: left;
+           width: 412px;
+
+       }
+       .head div div a{
+           width: 100%;
+           display: block;
+       }
+        .head div div a img{
+            width: 100%;
+            display: block;
+
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <div >
+        <div>
+            <a href="">
+                <img src="../../images/1.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="../../images/2.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="../../images/4.jpg" alt="">
+            </a>
+        </div>
+    </div>
+
+</div>
+<script>
+    $(function () {
+        var a=new BScroll($('.head'),{
+            scrollx:true,
+            scrolly:false,
+            momentum:false,
+            snap:true,
+            snapLoop:this.loop,
+            snapThreshold:0.3,
+            snapSpeed:400
+        })
+    })
+</script>
+</body>
+</html>

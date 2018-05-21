@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js" rel="stylesheet"></script>
+
+</head>
+<body>
+    <input id="btn" value="点我" type="button">
+    <script type="text/javascript">
+	    // <!--用来在DOM加载完成之后执行一系列预先定义好的函数。 -->
+	    $(function () {
+		    $('#btn').click(function () {
+
+			    $.ajax({
+
+				    url:"../data/jquery.php",
+				    type:"get",
+                    dataType:"json",
+                    data:{username:'ss',password:'123'},
+				    success:function (data) {
+				    	alert(data.username);
+//                        console.log(data);
+
+					console.log(data)
+				    },
+                    error:function (e) {
+                        console.log(e);
+                    }
+
+			    })
+		    })
+	    })
+
+    </script>
+</body>
+</html>

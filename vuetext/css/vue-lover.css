@@ -1,0 +1,13 @@
+#app{
+    width: 500px;
+    height: 40px;
+    margin: 0 auto;
+    border:1px solid #fff667;
+}
+.cha-zhi{
+    margin: 10px auto;
+    width: 500px;
+    height: 60px;
+    border: 3px solid red;
+    box-shadow: 3px 5px 10px #000;
+}

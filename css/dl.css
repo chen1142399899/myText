@@ -1,0 +1,44 @@
+body{
+    background-color: #22C29B;
+}
+/*
+这里使用了绝对定位position:absolute，使用left和top设置对象距离上和左为50%，
+但如果设置50%，实际上盒子是没有实现居中效果，所以又设置margin-left:-200px;margin-top:-100px;，这里有个技巧是，
+margin-left的值是宽度一半，margin-top的值也是对象高度一半，同时设置为负，这样就实现了水平和垂直居中。
+*/
+.div1{
+    background-color: #00ffcc;
+    width: 400px;
+    height: 200px;
+
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left:-200px;
+    margin-top: -100px;
+    box-shadow:10px 10px 10px #00A383;
+
+    border-radius:10px;
+}
+form{
+     margin: auto;
+}
+p{
+    display: block;
+    width: 40px;
+    height: 20px;
+    margin: 0;
+    padding:0;
+
+}
+h2{text-align:center;
+}
+input{
+    margin-top: 15px;
+}
+.em{
+    color: #fff667;
+}
+.em1{
+    color: #6e27ff;
+}

@@ -1,0 +1,61 @@
+.zy{
+    width: 1024px;
+    margin: auto;
+
+}
+body{
+    background:rgba(000,222,235,2);
+}
+.menu{
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+    height: 35px;
+
+}
+body,div,a,ul,li,h1,h2{
+    color: #333333;
+}
+.menu ul{
+    height: 35px;
+}
+.menu ul li {
+    width: 100px;
+    float: left;
+    height: 35px;
+
+
+}
+a,li{
+    font-size: 18px;
+    font-family: DokChampa;
+    height: 35px;
+}
+.love{
+    height: 100px;
+}
+.menu ul li ul{
+    clear: both;
+    position: absolute;
+    top: 35px;;
+    display: none;
+}
+.clearfix{
+    clear: both;
+}
+.gn a:hover{
+    background-color: #000000;
+    color: antiquewhite;
+}
+.gn ul{
+    height:  100px;
+}
+.top-auto{width: 100%;
+    margin-top: 50px;
+
+}
+.top-auto li{
+    width: 200px;
+    height: 400px;
+    float: left;
+}

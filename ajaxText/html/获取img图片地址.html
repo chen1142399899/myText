@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				
+				var data={};
+		
+				var url='https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg';
+				var sb={
+						platform:'h5',
+						uin : 0,
+						needNewCode: 1
+				};
+				var sb1='?&platform'+sb.platform+'&uin'+sb.uin+'&needNewCode'+sb.needNewCode;
+//				url+=sb1;
+			//
+				//{"code":0,"data":{"slider":[{"linkUrl":"http://y.qq.com/m/client/fan_mv/info.html?i
+//				d=15","picUrl":"http://y.gtimg.cn/music/photo_new/T003R720x288M0000023wy4h4Rp20J.jpg","
+//id":15495},{"linkUrl":"http://y.qq.com/w/album.html?albummid=002eB6vg37GF8P","picUrl":"http://y.gtimg.cn/music/photo_new/T003R720x288M0000035BUYC3bQViL.jpg","id":15503},{"linkUrl":"https://y.qq.com/m/act/KingCross/index.html?ADTAG=jiaodiantu","picUrl":"http://y.gtimg.cn/music/photo_new/T003R720x288M000002yFrNU0RoVCG.jpg","id":15462},{"linkUrl":"https://y.qq.com/m/act/chuangzao101/index.html?ADTAG=jiaodiantu","picUrl":"http://y.gtimg.cn/music/photo_new/T003R720x288M000003rjpqz1UKfz3.jpg","id":15427},{"linkUrl":"https://y.qq.com/m/digitalbum/gold/index.html?_video=true&id=4038547&g_f=shoujijiaodian","picUrl":"http://y.gtimg.cn/music/photo_new/T003R720x288M000003Fo62A26cNLJ.jpg","id":15504}],"radioList":[{"picUrl":"http://y.gtimg.cn/music/photo/radio/track_radio_199_13_1.jpg","Ftitle":"热歌","radioid":199},{"picUrl":"http://y.gtimg.cn/music/photo/radio/track_radio_307_13_1.jpg","Ftitle":"一人一首招牌歌","radioid":307}],"songList":[{"songListDesc":"催泪大杀器！盘点演唱会经典万人大合唱","picUrl":"http://p.qpic.cn/music_cover/1Fr9IFMhWDPeUzWKVEjn3QTL2eX2QziaJmaL0ZAmsvtW71ic9IDUoYzg/300?n=1","id":"2646688496","accessnum":9050612,"songListAuthor":"Harry","pic_mid":"00333So02drvak","album_pic_mid":""},{"songListDesc":"纳尼？这些华语歌手竟然会唱日语歌！","picUrl":"http://p.qpic.cn/music_cover/z8wAFqicQ1qhImeiajkrgiaR4hYM3pzsUULFnicXshFXdw9uGkm261Ex9g/300?n=1","id":"1144416825","accessnum":647394,"songListAuthor":"风吹草地","pic_mid":"0013j8zs1jRnLQ","album_pic_mid":""},{"songListDesc":"精选内地十大民谣歌手代表作","picUrl":"http://p.qpic.cn/music_cover/hVUsfUFG2DV466URqw7PT7X66OknPIhic2mKDgicawN4qThIR7yhYY1w/300?n=1","id":"2043041547","accessnum":990184,"songListAuthor":"１'s   ヽ","pic_mid":"004bFmjW2PXSqF","album_pic_mid":"0032YJyg2yF6Dd"},{"songListDesc":"$doopeBoi关注我网易yun歌手页","picUrl":"http://p.qpic.cn/music_cover/tkduvk4dwqBxwzZhsNe0nwkwyiaLHVkxtla7REsX0yNkhibOH3Bdb2og/300?n=1","id":"2040362185","accessnum":1157361,"songListAuthor":"SdoopeBoi_7","pic_mid":"002s71FW1GD8go","album_pic_mid":"001iJq1y1Uq3zV"},{"songListDesc":"浮光掠影：ACG纯音乐赏析合辑","picUrl":"http://p.qpic.cn/music_cover/XMPAjfs5uwGZdWII3osvAvCRyNWx8Pqy5Yice41OCZlBhLtk0p0icNvg/300?n=1","id":"1723063372","accessnum":935786,"songListAuthor":"肥喵","pic_mid":"000xFtbN1l8ye8","album_pic_mid":"002egQPg3DWcCS"},{"songListDesc":"trip-hop单曲大推荐","picUrl":"http://y.gtimg.cn/music/photo_new/T005R600x600M00000
+//				2CJKAY1LKpcz.jpg?n=1","id":"3482605622","accessnum":356884,"songListAuthor":"哑忍","pic_mid":"","album_pic_mid":"004aOQhn3PPOpK"}]}}
+				function a(){
+
+					$.ajax({
+            	 type: "get",
+            	 async: false,
+             	url: url,
+            	 dataType: "jsonp",
+             	jsonp: "_jsonp",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)
+				data:sb,
+           		  jsonpCallback:"flightHandler",//自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名，也可以写"?"，jQuery会自动为你处理数据
+           		  success: function(data){
+           		  		console.log(data)
+                 
+             },
+             error: function(a,b){
+               	console.log('错误'+b)
+             }
+         });
+				}
+			a();
+				
+			})
+		</script>
+	</head>
+	<body>
+		<div id='app'>
+		
+		
+		</div>
+		<script type="text/javascript">
+		
+
+		</script>
+	</body>
+</html>

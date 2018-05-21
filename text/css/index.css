@@ -1,0 +1,314 @@
+/* CSS Document */
+/*body*/
+/*公共样式--begin*/
+ol,ul{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+a{
+
+	text-decoration: none;
+}
+div{
+	display: block;
+}
+body{
+	margin:0px;
+	padding:42px 0px 0px 0px;
+	min-width:1000px;
+	font: normal 12px/1.6em Microsoft YaHei,Tahoma,simsun,sans-serif;
+}
+.clearfix:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.may-min-one-fast strong,.os_lnk strong{
+	position: absolute;
+	bottom: 1px;
+	left: 0;
+	width: 100%;
+	display: block;
+	height: 110px;
+	overflow: hidden;
+	text-indent: -999em;
+	-moz-animation: smoke1 40s linear infinite;
+	-webkit-animation: smoke1 40s linear infinite;
+}
+
+/*公共样式--end*/
+#top{
+	background:url("../img/index-bg-v28.jpg") no-repeat center top;
+
+}
+
+/*头部区域*/
+.top-top{
+	width:1000px;
+	height:464px;
+	margin:0 auto;
+}
+#boom-top{
+	width: 1000px;
+	height: 464px;
+	padding:363px 0px 0px 0px ;
+}
+.boom-top{
+	display: block;
+	height: 75px;
+	width: 270px;
+}
+
+/*主区域*/
+.may-min{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.may-min-one{
+	float:left;
+	margin-right: 10px;
+	width: 225px;
+	height: 307px;
+	overflow: hidden;/*定义这个属性定义溢出元素内容区的内容会如何处理内容会被修剪，并且其余内容是不可见的*/
+}
+.may-min-one-fast{
+	height: 127px;
+	background-position: 0 0;
+	position: relative;
+}
+.may-min-one-fast strong {
+	background: url("../img/smoke.png") repeat -53px -148px;
+	opacity: 0.4;
+	height: 127px;
+}
+.link{
+	display: block;
+	height: 100%;
+	cursor: pointer;/*定义光标*/
+}
+.tongyong{
+	background-image: url("../img/dowload.png");
+
+}
+.min-last{
+	width: 100%;
+	height: 90px;
+}
+.may-min-one-last{
+	background-position: 0 -132px;
+}
+.may-min-one-thsan{
+	background-position: 0 -227px;
+}
+.may-min-two{
+	float: left;
+	margin-right: 10px;
+	width: 490px;
+	height: 307px;
+	background-image:url("../img/sp.png")
+}
+.may-min:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.otherlnk {
+	float: right;
+	width: 225px;
+	height: 307px;
+	overflow: hidden;
+	box-shadow: 0 0 2px rgba(0,0,0,.3);
+}
+.lnk {
+	display: block;
+	height: 100%;
+	cursor: pointer;
+}
+.tnd {
+	overflow: hidden;
+	text-indent: -9999em;
+}
+.spr {
+	background: url("../img/dowload.png")  no-repeat;
+}
+.os_lnk {
+	width: 225px;
+	height: 176px;
+	margin-bottom: 9px;
+	background-position: 0 -512px;
+	position: relative;
+}
+.os_lnk strong {
+	height: 173px;
+	background: url("../img/smoke2.png") repeat -53px -148px;
+	opacity: 1;
+}
+.newbie_lnk {
+	height: 120px;
+	overflow: hidden;
+	position: relative;
+	background: url("../img/1387258557103194697.jpg") no-repeat;
+}
+@-moz-keyframes smoke1{0%{background-position:0 0;} 100%{background-position:0 -730px;}}
+@-webkit-keyframes smoke1{0%{background-position:0 0;} 100%{background-position:0 -730px;}}
+
+
+.may-min-sans{
+	height: 162px;
+	width: 170px;
+	right: 68px;
+	position: absolute;
+	bottom:0px;
+	z-index: 9;
+	padding-left:5px;
+	display: none;
+}
+.may-min-xia{
+	height: 110px;
+	margin-top: 10px;
+	float: left;
+	width:100%;
+;
+}
+.tongyonga{
+	float: left;
+	width: 240px;
+	height: 110px;
+	position:relative;
+	overflow: hidden;
+	background-repeat:no-repeat;
+;
+}
+/*底部版权*/
+.top-banquan{
+	width:960px;
+	margin:0 auto;
+	height: 100px;
+	padding-top:93px;
+	color:#363636;
+	zoom:1;
+	overflow: hidden;
+}
+.top-banquan-a{
+	width: 180px;
+	height: 50px;
+	float: left;
+}
+.c4f6{
+	color:#363636;
+}
+li{
+	display: list-item;/*此元素会作为列表显示*/
+	text-align: -webkit-match-parent;/*元素向左对齐*/
+}
+a:hover{
+	text-decoration:underline;
+}
+.f9{
+	font-size:11px;
+	color:#363636;
+	padding:0px 5px;
+	margin:0;
+}
+.f8{
+	color:#363636;
+	padding:0px 5px;
+}
+
+/*a:-webkit-any-link{*/
+	/*color: -webkit-link;*/
+	/*text-decoration: underline;*/
+	/*cursor:auto;*/
+/*}*/
+
+/*最上方导航条*/
+.bj{
+	background:url("../img/top20150524.jpg") no-repeat;
+ }
+.tou{
+	position:absolute;
+	top:-0px;
+	width: 100%;
+	height: 42px;
+	text-align: left;/*把文本排列到左边*/
+	overflow: hidden;
+	background-repeat: repeat-x;
+	left:0;/*定位距左侧为0*/
+	z-index: 10;
+}
+.ss{
+	width:980px;
+	padding:0 5px;
+	margin:0 auto;
+	position:relative;
+}
+.ss-a{
+	width: 205px;
+	height: 42px;
+	padding:0px 15px 0px 0px;
+	margin:0px 15px 0px 0px;
+	background-position: 0 -42px;
+	float: left;
+}
+.ss-a-bink {
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	color: #363636 !important;
+}
+.ss-a-bink:hover{
+	color: #0096D0 !important;
+}
+.ss-b{
+	width: 230px;
+	height: 42px;
+	float:left;
+	background-position: 0 -84px;
+}
+.ss-c{
+	height: 42px;
+	line-height: 42px;
+	list-style:none;
+	float:right;
+}
+.ss-c-a{
+	float:right;
+	width: 80px;
+	padding:0px 0px 0px 28px;
+	background-position:10px -126px;
+}
+.ss-c-a-a1{
+	border-right: 1px solid #bfc6d7;
+	padding:0px 9px;
+	color: #363636;
+}
+.ss-c-a-a1:hover{
+	color: #0096D0;
+}
+
+/*修改背景图*/
+.tongyonga:hover{
+	background-position: 0 -110px;
+}
+.may-min-one-last:hover{
+	background-position: 0 -322px;
+}
+.may-min-one-thsan:hover{
+	background-position:0 -417px;
+}
+.newbie_lnk:hover{
+	background-position:0 -120px;
+}
+strong:hover{
+	-webkit-animation: smoke1 20s linear infinite;
+}
+

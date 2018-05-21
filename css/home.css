@@ -1,0 +1,251 @@
+
+/*头部*/
+    .head{
+        background-color: #055c92;
+        height: 40px;
+    }
+    .head-mann{
+        width:1200px;
+        height: 40px;
+        margin: auto;
+    }
+    .head-left{
+        float: left;
+        width: 340px;
+        height: 100%;
+    }
+    .head-left ul li{
+        float: left;
+        line-height: 40px;
+        color: aliceblue;
+        margin-right: 10px;
+    }
+.head-left ul li a{
+    color: aliceblue;
+}
+    .head-left-a{
+        border-right: 1px solid aliceblue ;
+    }
+    .head-right{
+        float: right;
+        width: 340px;
+        height: 100%;
+    }
+.head-right ul li{
+    float: left;
+    line-height: 40px;
+    color: aliceblue;
+    margin-right: 5px;
+}
+
+/*中部*/
+    .mian{
+        width:1200px;
+        margin: auto;
+        padding-top:20px;
+        color:#333333;
+    }
+    .mian-top ul{
+        width: 1200px;
+        height: 60px;
+    }
+    #mian-top-a{
+        width: 180px;
+        float:left;
+        padding-right: 20px;
+    }
+    #mian-b{
+        padding-right: 10px;
+        width: 120px;
+    }
+    .mian-top ul li{
+        float: left;
+        width: 90px;
+        color:#333333;
+        line-height: 60px;
+    }
+.mian-top ul li a{
+    color:#333333;
+    font-size:18px;
+}
+
+.mian-top ul li a:hover{
+    color: red;
+}
+.mian-main{
+    height: 400px;
+    width: 100%;
+    clear: both;
+}
+.mian-main-left{
+    width: 960px;
+    float: left;
+}
+.mian-main-xxg{
+    background-color:#055c92;
+    height: 45px;
+    line-height: 45px;
+}
+.mian-main-xxg div{
+    margin: 0 auto;
+    width: 50px;
+}
+
+.mian-main-rigt{
+    width: 235px;
+    float: right;
+}
+.mian-ul li{
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+}
+.mian-ul img{
+    width: 20px;
+    float: left;
+}
+.mian-ul a{
+    height: 23px;
+    width: 200px;
+    color: #333333;
+    float: left;
+    font-size: 12px;
+}
+.mian-ul a:hover{
+    color: darkgreen;
+}
+.yd-left{
+    width: 235px;
+    height: 350px;
+    float: left;
+    background:url("../ZY/webb.png");
+    margin-top: 10px;
+
+}
+.yd-right ul li{
+    width: 230px;
+    height: 170px;
+    float: left;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    margin-top: 10px;
+    position:relative;
+}
+.yd-right ul li a{
+    width: 100%;
+    height: 100%;
+}
+.yd-right ul li a:hover{
+    background-color: #ff7300;
+}
+.yd-right ul li a img{
+    width: 80px;
+    height: 64px;
+    position: absolute;
+    top:50px;
+    left: 80px;
+}
+.yd-right{
+    height: 350px;
+    float: left;
+    width: 960px;
+
+}
+
+em{
+    color: #333333;
+    font-size: 18px;
+    position: absolute;
+    top:120px;
+    left: 80px;
+}
+
+/*尾部*/
+    .bottem{
+        padding-top:50px ;
+        width:1200px;
+        margin: auto;
+        height: 485px;
+        color: black;
+    }
+    .bottem a,.bottem div,.bottem div ul li{
+                    color: black;
+
+                          }
+.bottem-one{
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid #E6E6E6;
+}
+.botte-div{
+    float: left;
+    width: 170px;
+    height: 100%;
+}
+.bottem-one li{
+    height: 30px;
+}
+.bottem-li{
+    font-size: 18px;
+    color: black;
+
+}
+.bottem-one li a{
+    color: dimgray;
+    font-size: 13px;
+}
+.bottem-tw{
+    clear: both;
+    height: 140px;
+    margin:10px 0px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.bottem-tw div ul li{
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+
+}
+.bottem-tw div ul li a{
+    color: dimgray;
+}
+.bottem-tw div ul li a:hover{
+    color: fuchsia;
+}
+.bottem-th{
+    height: 140px;
+    width: 100%;
+    clear:both;
+}
+.weibu-one{
+    width: 170px;
+    height: 60px;
+    float: left;
+}
+.weibu-one1{
+    float: left;
+    padding-left: 20px;
+
+}
+.weibu-lef{clear: both;
+}
+#weibu-lef li{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+    color: dimgray;
+}
+#weibu-right{
+    clear: both;
+
+}
+#weibu-right li{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+    color: dimgray;
+}

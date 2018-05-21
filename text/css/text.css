@@ -1,0 +1,23 @@
+
+a{
+    display: block;
+    width: 225px;
+    height: 176px;
+    margin:  0 auto;
+    background: url("../img/text.png") no-repeat;
+}
+@-webkit-keyframes smoke1{0%{background-position:0 0;} 100%{background-position:0 -730px;}}
+strong{
+    background: url("../img/smoke2.png") no-repeat;
+    height: 170px;
+    width: 225px;
+    opacity: 0.5;
+    left:0;
+
+    display: block;
+    overflow: hidden;
+    -webkit-animation: smoke1 30s linear infinite;
+}
+strong:hover{
+    -webkit-animation: smoke1 20s linear infinite;
+}

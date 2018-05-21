@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON获取原生代码</title>
+    <script type="text/javascript">
+        window.onload=function () {
+            var btn=document.getElementById('btn');
+            btn.onclick=function () {
+                showTime();
+            };
+            function  showTime() {
+                var xhr=null;
+                try{
+	                xhr = new XMLHttpRequest();
+
+                }catch(e){
+	                xhr = new ActiveXObject('Microsoft.XMLHTTP');
+
+                }
+                xhr.open('get','../data/data.json');
+	            xhr.send(null);
+                xhr.onreadystatechange=function () {
+                    if(xhr.readyState==4 &&xhr.status==200){
+						
+                    	var datae=JSON.parse(xhr.responseText);
+                    	console.log("数据："+datae.data);
+                    	var toda=datae.total;
+                    	var dats=datae.data;
+                    	var tag='';
+	                    console.log( datae.data[0]);
+	                    for(var i=0;i<toda;i++){
+                    	    var book=dats[i];
+                    	    tag+='<tr><td>'+book.name+ '</td><td>'+book.category+'</td><td>'+book.desc+'</td></tr>'
+
+                    	}
+                    	var tbody=document.createElement('tbody');
+                        tbody.innerHTML=tag;
+                        document.getElementById("love").appendChild(tbody);
+                    }
+
+                }
+            }
+        }
+
+    </script>
+</head>
+<body>
+<input type="text" id="ss"><input type="button" id="btn" value="查询">
+<div>
+    <table id="love">
+
+    </table>
+</div>
+</body>
+</html>
